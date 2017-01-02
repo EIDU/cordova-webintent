@@ -1,0 +1,27 @@
+{
+  "name": "cordova-webintent3",
+  "version": "1.0.0",
+  "description": "Web intents for Cordova",
+  "cordova": {
+    "id": "com.borismus.webintent",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EIDU/cordova-webintent.git"
+  },
+  "keywords": [
+    "cordova",
+    "webintent",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EIDU/cordova-webintent/issues"
+  },
+  "homepage": "https://github.com/EIDU/cordova-webintent#readme"
+}

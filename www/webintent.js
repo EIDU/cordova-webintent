@@ -65,6 +65,14 @@
         }, 'WebIntent', 'sendBroadcast', [params]);
     };
 
+    WebIntent.prototype.sendStickyBroadcast = function(params, success, fail) {
+        return cordova.exec(function(args) {
+            success(args);
+        }, function(args) {
+            fail(args);
+        }, 'WebIntent', 'sendStickyBroadcast', [params]);
+    };
+
     window.webintent = new WebIntent();
     
     // backwards compatibility
